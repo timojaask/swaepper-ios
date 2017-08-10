@@ -60,11 +60,11 @@ class RestService {
             if let error = error {
                 debugPrint("ERROR: \(error)")
             }
-            self.handleResponse(data, response: response, error: error as! NSError, completion: completion)
+            self.handleResponse(data, response: response, error: error, completion: completion)
         }) .resume()
     }
     
-    fileprivate func handleResponse(_ data: Data?, response: URLResponse?, error: NSError?, completion: @escaping RestClientCompletionHandler) {
+    fileprivate func handleResponse(_ data: Data?, response: URLResponse?, error: Error?, completion: @escaping RestClientCompletionHandler) {
         var success = false
         var statusCode: Int? = nil
         if let httpResponse = response as? HTTPURLResponse {
