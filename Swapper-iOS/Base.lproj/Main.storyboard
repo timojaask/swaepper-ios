@@ -821,6 +821,7 @@ Internet connection?</string>
                                             </constraints>
                                         </view>
                                     </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="leadingMargin" secondItem="ml6-cN-zwz" secondAttribute="leading" id="GsN-Rg-beO"/>
                                         <constraint firstItem="ml6-cN-zwz" firstAttribute="centerY" secondItem="aid-TG-TZ7" secondAttribute="centerY" id="KtQ-Vb-ld8"/>
@@ -1142,6 +1143,7 @@ Internet connection?</string>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstItem="pQb-ll-gTR" firstAttribute="leading" secondItem="UyF-2X-Zqc" secondAttribute="leading" id="4le-Ey-TMy"/>
                                         <constraint firstItem="dR6-rc-mbA" firstAttribute="centerY" secondItem="UyF-2X-Zqc" secondAttribute="centerY" id="QQ9-HP-Zcg"/>
@@ -1231,26 +1233,27 @@ Internet connection?</string>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyBooksTableSectionHeaderView" rowHeight="60" id="jo1-ii-5Sc" customClass="MyBooksTableSectionHeaderView" customModule="Swapper_iOS" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="60"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jo1-ii-5Sc" id="xkx-bd-q08">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38x-hd-e8G">
-                                                    <rect key="frame" x="114" y="20" width="91" height="20.5"/>
+                                                    <rect key="frame" x="142" y="20" width="91" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.20392156859999999" green="0.59607843140000005" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wyo-9f-PJv" userLabel="Separator">
-                                                    <rect key="frame" x="0.0" y="59" width="320" height="1"/>
+                                                    <rect key="frame" x="0.0" y="59" width="375" height="1"/>
                                                     <color key="backgroundColor" red="0.75" green="0.75" blue="0.75" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="1" id="m18-Qm-88c"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="38x-hd-e8G" firstAttribute="centerY" secondItem="xkx-bd-q08" secondAttribute="centerY" id="XJl-YZ-Tzw"/>
                                                 <constraint firstAttribute="trailing" secondItem="wyo-9f-PJv" secondAttribute="trailing" id="hJ7-8X-UDi"/>
@@ -1264,10 +1267,10 @@ Internet connection?</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyBooksTableCell" rowHeight="100" id="2fW-Tv-1v2" customClass="MyBooksTableCell" customModule="Swapper_iOS" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="88" width="320" height="100"/>
+                                        <rect key="frame" x="0.0" y="88" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2fW-Tv-1v2" id="QGG-J6-w5P">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="gRb-Lv-FI2">
@@ -1277,13 +1280,13 @@ Internet connection?</string>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTA-uR-Kru">
-                                                    <rect key="frame" x="72" y="12" width="171.5" height="20.5"/>
+                                                    <rect key="frame" x="72" y="12" width="226.5" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQd-WZ-118">
-                                                    <rect key="frame" x="72" y="32" width="171.5" height="14.5"/>
+                                                    <rect key="frame" x="72" y="32" width="226.5" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1312,14 +1315,14 @@ Internet connection?</string>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ge-2r-ncP" userLabel="Separator">
-                                                    <rect key="frame" x="0.0" y="99" width="320" height="1"/>
+                                                    <rect key="frame" x="0.0" y="99" width="375" height="1"/>
                                                     <color key="backgroundColor" red="0.89999997615814209" green="0.89999997615814209" blue="0.89999997615814209" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="1" id="e3z-NJ-eLV"/>
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EJZ-yM-5KA" userLabel="Price container" customClass="BorderView" customModule="Swapper_iOS" customModuleProvider="target">
-                                                    <rect key="frame" x="252" y="12" width="56" height="28"/>
+                                                    <rect key="frame" x="307" y="12" width="56" height="28"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 €" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ihg-5P-ZwP">
                                                             <rect key="frame" x="16" y="7" width="24.5" height="14.5"/>
@@ -1480,10 +1483,10 @@ Internet connection?</string>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ScanResultTableCell" rowHeight="100" id="i0v-wo-3VO" customClass="ScanResultTableCell" customModule="Swapper_iOS" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="100"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i0v-wo-3VO" id="MvJ-1I-khw">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="McL-q9-LjR">
@@ -1493,13 +1496,13 @@ Internet connection?</string>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkC-w7-KUR">
-                                                    <rect key="frame" x="70" y="20" width="230" height="20.5"/>
+                                                    <rect key="frame" x="70" y="20" width="285" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hzn-7B-BYe">
-                                                    <rect key="frame" x="70" y="40" width="230" height="14.5"/>
+                                                    <rect key="frame" x="70" y="40" width="285" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -1974,6 +1977,6 @@ Internet connection?</string>
         <image name="tabbar_sales_selected" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="M5b-vu-1Ya"/>
+        <segue reference="tqd-zY-N6R"/>
     </inferredMetricsTieBreakers>
 </document>
